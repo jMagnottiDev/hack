@@ -1,0 +1,64 @@
+body {
+  background-image: url("img/matrix-code.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #00ff00;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+
+header, section, footer {
+  background-color: rgba(0, 0, 0, 0.7); /* fundo escurecido p/ contraste */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.destaque {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.botao {
+  background-color: #00ff00;
+  color: #000;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+}
+
+hr {
+  width: 60%;
+  border-color: #00ff00;
+  margin: 20px auto;
+}
